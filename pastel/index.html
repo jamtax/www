@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMTAX - Authorized Pastel Partner & Financial Services</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #2B4C7E 0%, #1A365D 100%);
+        }
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .pricing-card {
+            transition: all 0.3s ease;
+        }
+        .pricing-card:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-blue-900">JAMTAX</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#products" class="text-gray-700 hover:text-blue-600">Products</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="#support" class="text-gray-700 hover:text-blue-600">Support</a>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="gradient-bg text-white">
+        <div class="container mx-auto px-6 py-20">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Your Trusted Pastel Partner</h1>
+                    <p class="text-xl mb-8">Expert accounting solutions and support services in South Africa. Certified Pastel consultants ready to help your business succeed.</p>
+                    <div class="flex space-x-4">
+                        <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100">Get Started</button>
+                        <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600">Free Consultation</button>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Analytics Dashboard" class="w-full max-w-md mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <div id="products" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Pastel Solutions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Pastel Partner -->
+                <div class="service-card bg-white rounded-xl p-6 shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Pastel Partner</h3>
+                    <p class="text-gray-600 mb-4">Complete business management solution for growing companies.</p>
+                    <ul class="text-gray-600 mb-4 space-y-2">
+                        <li>• Multi-user accounting</li>
+                        <li>• Inventory management</li>
+                        <li>• Purchase order processing</li>
+                        <li>• Advanced reporting</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-700">Learn More →</a>
+                </div>
+
+                <!-- Pastel Xpress -->
+                <div class="service-card bg-white rounded-xl p-6 shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Pastel Xpress</h3>
+                    <p class="text-gray-600 mb-4">Perfect for small to medium-sized businesses.</p>
+                    <ul class="text-gray-600 mb-4 space-y-2">
+                        <li>• Easy-to-use interface</li>
+                        <li>• Basic inventory control</li>
+                        <li>• Customer/supplier management</li>
+                        <li>• Essential reporting</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-700">Learn More →</a>
+                </div>
+
+                <!-- Payroll -->
+                <div class="service-card bg-white rounded-xl p-6 shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Pastel Payroll</h3>
+                    <p class="text-gray-600 mb-4">Comprehensive payroll management system.</p>
+                    <ul class="text-gray-600 mb-4 space-y-2">
+                        <li>• SARS compliant</li>
+                        <li>• Automated tax calculations</li>
+                        <li>• Leave management</li>
+                        <li>• Statutory reporting</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-700">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Implementation -->
+                <div class="pricing-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Implementation</h3>
+                    <ul class="space-y-3 mb-6">
+                        <li>• System setup</li>
+                        <li>• Data migration</li>
+                        <li>• User training</li>
+                        <li>• Configuration</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 hover:text-blue-700">Get Quote →</a>
+                </div>
+
+                <!-- Support -->
+                <div class="pricing-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Support Services</h3>
+                    <ul class="space-y-3 mb-6">
+                        <li>• Technical support</li>
+                        <li>• System updates</li>
+                        <li>• Problem resolution</li>
+                        <li>• Remote assistance</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 hover:text-blue-700">Learn More →</a>
+                </div>
+
+                <!-- Training -->
+                <div class="pricing-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Training</h3>
+                    <ul class="space-y-3 mb-6">
+                        <li>• Basic operations</li>
+                        <li>• Advanced features</li>
+                        <li>• Custom workshops</li>
+                        <li>• Refresher courses</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 hover:text-blue-700">View Schedule →</a>
+                </div>
+
+                <!-- Consulting -->
+                <div class="pricing-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Consulting</h3>
+                    <ul class="space-y-3 mb-6">
+                        <li>• Business analysis</li>
+                        <li>• Process optimization</li>
+                        <li>• System integration</li>
+                        <li>• Custom solutions</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 hover:text-blue-700">Book Session →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Support Plans -->
+    <div id="support" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Support Plans</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Basic Support -->
+                <div class="pricing-card bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-400">
+                    <h3 class="text-2xl font-bold mb-4">Basic Support</h3>
+                    <p class="text-gray-600 mb-6">Essential support for small businesses</p>
+                    <div class="text-3xl font-bold mb-6">R499<span class="text-lg text-gray-600">/month</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li>✓ Email support</li>
+                        <li>✓ Basic troubleshooting</li>
+                        <li>✓ Monthly system health check</li>
+                        <li>✓ Online knowledge base access</li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Select Plan</button>
+                </div>
+
+                <!-- Professional Support -->
+                <div class="pricing-card bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                    <h3 class="text-2xl font-bold mb-4">Professional</h3>
+                    <p class="text-gray-600 mb-6">Complete support package</p>
+                    <div class="text-3xl font-bold mb-6">R999<span class="text-lg text-gray-600">/month</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li>✓ All Basic features</li>
+                        <li>✓ Priority phone support</li>
+                        <li>✓ Remote assistance</li>
+                        <li>✓ Quarterly training session</li>
+                        <li>✓ Data backup service</li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Select Plan</button>
+                </div>
+
+                <!-- Enterprise Support -->
+                <div class="pricing-card bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-400">
+                    <h3 class="text-2xl font-bold mb-4">Enterprise</h3>
+                    <p class="text-gray-600 mb-6">Custom support solutions</p>
+                    <div class="text-3xl font-bold mb-6">Custom</div>
+                    <ul class="space-y-3 mb-8">
+                        <li>✓ All Professional features</li>
+                        <li>✓ Dedicated support manager</li>
+                        <li>✓ 24/7 emergency support</li>
+                        <li>✓ On-site assistance</li>
+                        <li>✓ Custom development</li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="gradient-bg py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Get Started?</h2>
+            <p class="text-xl text-white mb-8">Contact us for a free consultation and system demo</p>
+            <div class="flex justify-center space-x-4">
+                <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100">Book Demo</button>
+                <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600">Contact Sales</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-semibold mb-4">Products</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Pastel Partner</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Pastel Xpress</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Payroll</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Implementation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Training</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Knowledge Base</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQs</a></li>
+                    </ul>
+                </div>
+                <div>
