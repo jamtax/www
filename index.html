@@ -186,33 +186,6 @@
             <p>&copy; 2024 JAM TAX ACCOUNTING. All Rights Reserved.</p>
         </div>
     </footer>
-
-    <script>
-    // Mobile menu toggle
-    function toggleMenu() {
-        const navLinks = document.getElementById('nav-links');
-        navLinks.classList.toggle('show-menu');
-        
-        const menuIcon = document.querySelector('.menu-icon');
-        const isExpanded = menuIcon.getAttribute('aria-expanded') === 'true';
-        menuIcon.setAttribute('aria-expanded', !isExpanded);
-    }
-    
-    // WhatsApp link validation (Improved)
-    (function() {
-        'use strict';
-        const whatsappLink = document.getElementById('whatsapp-link');
-        if (!whatsappLink) return;
-    
-        const phone = '27797656234'; // Replace with dynamic data if needed
-        const isValidPhoneNumber = /^27\d{9}$/;
-    
-        if (isValidPhoneNumber.test(phone)) {
-            whatsappLink.href = `https://wa.me/${phone}`;
-        } else {
-            console.error('Invalid phone number format');
-        }
-    })();
-    </script>
+<script src="main.js"></script>
 </body>
 </html>
