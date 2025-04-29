@@ -208,13 +208,13 @@
         menuIcon.setAttribute('aria-expanded', !isExpanded);
     }
     
-    // WhatsApp link validation
+    // WhatsApp link validation (Improved)
     (function() {
         'use strict';
         const whatsappLink = document.getElementById('whatsapp-link');
         if (!whatsappLink) return;
     
-        const phone = '27797656234'; // Your phone number
+        const phone = '27797656234'; // Replace with dynamic data if needed
         const isValidPhoneNumber = /^27\d{9}$/;
     
         if (isValidPhoneNumber.test(phone)) {
